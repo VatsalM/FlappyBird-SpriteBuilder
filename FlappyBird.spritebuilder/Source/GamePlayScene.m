@@ -29,7 +29,7 @@
         // Then reset the timer.
         timeSinceObstacle = 0.0f;
     }
-
+}
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
 {
@@ -38,4 +38,8 @@
     
     timeSinceObstacle = 0.0f;
 }
+    
+
 @end
+
+
